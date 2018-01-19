@@ -6,7 +6,7 @@
 </head>
 <body>
     <div><h1>Edit Post</h1></div>
-    <form action="Editor" method="POST">
+    <form action="post" method="POST">
         <div>
             <button type="submit" name="save" value="Save">Save</button>
             <button type="submit" name="close" value="Close">Close</button>
