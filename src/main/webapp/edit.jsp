@@ -6,12 +6,12 @@
 </head>
 <body>
     <div><h1>Edit Post</h1></div>
-    <form>
+    <form action="Editor" method="POST">
         <div>
-            <button type="submit" name="submit1">Save</button>
-            <button type="submit">Close</button>
-            <button type="submit">Preview</button>
-            <button type="submit">Delete</button>
+            <button type="submit" name="save" value="Save">Save</button>
+            <button type="submit" name="close" value="Close">Close</button>
+            <button type="submit" name="prev" value="Preview">Preview</button>
+            <button type="submit" name="del" value="Delete">Delete</button>
         </div>
         <div>
             <label for="title">Title</label>

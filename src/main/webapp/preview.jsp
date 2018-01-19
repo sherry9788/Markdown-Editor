@@ -5,7 +5,7 @@
     <title>Preview Page</title>
 </head>
 <body>
-	<form>
+	<form action="Editor" method="POST">
         <div>
             <button type="submit">Close Preview</button>
         </div>
